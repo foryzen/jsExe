@@ -36,11 +36,11 @@ function sc(x){
 function click_switch(){
     if(count2==0){
         count2++
-        sc('mode_text').innerHTML = 'Realtime Mode'
+        sc('switcher').innerHTML = '<img src="btn2.svg" class="btn1">'
         sc('execute_switch_div').innerHTML = ''
     }else{
         count2--
-        sc('mode_text').innerHTML = 'Enter Mode'
-        sc('execute_switch_div').innerHTML = '<div id="execute_switch" onclick="enter2()"><p id="execute_text">execute</p></div>'
+        sc('switcher').innerHTML = '<img src="btn1.svg" class="btn1">'
+        sc('execute_switch_div').innerHTML = '<div id="execute_switch" onclick="enter2()"><img src="btn3.svg" class="btn1"></div>'
     }
 }

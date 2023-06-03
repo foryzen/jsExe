@@ -8,7 +8,7 @@ textarea{
     color: white;
     padding: 20px;
     width:750px;
-    height:700px;
+    height:400px;
     font-size:15px;
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
@@ -18,10 +18,6 @@ textarea{
 #switcher{
     cursor: pointer;
     display: inline-block;
-    text-align: center;
-    width: 100px;
-    height: 40px;
-    background: #fff;
 }
 
 .switch_text{
@@ -39,17 +35,10 @@ textarea{
     display: inline-block;
 }
 
-.switch-and-mode_text{
-
-}
-
 #execute_switch{
     cursor: pointer;
     display: inline-block;
     text-align: center;
-    width: 100px;
-    height: 40px;
-    background: #fff;
 }
 
 #execute_text{
@@ -69,4 +58,8 @@ textarea{
 
 a{
     color: rgb(104, 181, 202);
+}
+
+.btn1{
+    height: 80px;
 }
